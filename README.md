@@ -21,4 +21,4 @@ Así también, nos interesa la simplicidad en cuanto al diseño que manejan los 
 
 - Gian Franco, estudiante de Lic Informática en la Universidad de Quilmes. Trabajo como analista en un área llamada Gestión de incidentes en MercadoLibre
 
-[Link al Wireframe ](http://https://drive.google.com/file/d/1UqewmMG2mznNCY373rNApzuqFRnLbdpB/view "Link al Wireframe ")
+[Link al Wireframe ](https://drive.google.com/file/d/1UqewmMG2mznNCY373rNApzuqFRnLbdpB/view "Link al Wireframe ")
