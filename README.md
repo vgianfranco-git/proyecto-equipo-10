@@ -1,4 +1,4 @@
-# Equipo 10
+# Equipo 10- Rmarket
 
 La idea de este proyecto es la creación de una web que funcione para la venta de productos y servicios creados por medianos y pequeños productores. Principalmente nuestro objetivo es poder promocionar a estos emprendedores para que logren una visibilidad mayor a la que tendrían actuando de manera autónoma a la vez que brindamos acceso a los consumidores que deseen adquirir productos que no sean los que más exposición tienen en el mercado tradicional. La finalidad de este marketplace es lograr un abanico de productos y servicios en diferentes rubros de manera que puedan satisfacer sus necesidades desde la comodidad de su hogar.
 
