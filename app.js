@@ -11,3 +11,20 @@ res.sendFile(file);
 
 
 })
+app.get('*', function (req, res){   
+     
+
+    if(req.url.includes('.')){     
+    
+        let file= path.resolve ('public'+ req.url)
+    
+        return res.sendFile(file);
+    
+        }
+        
+        res.sendFile('Not found');              
+        
+        
+        })
+
+app.listen(3030)  
