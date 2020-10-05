@@ -1,4 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.body{
+    background-color: gray;
+}
+
 .header{
     background-color: blueviolet;
-    height: 40px;
+    height: 92px;
+
+}
+.carrousel{
+    background-color: chartreuse;
+    height: 338px;
+}
+.info-pago {
+background-color: cadetblue;
+height: 150px;
+}
+.recomendaciones{
+    background-color:chartreuse ;
+    height: 427.2px;
+}
+.descubri{
+    background-color: chocolate;
+    height: 378.2px;
+}
+
+.ofertas{
+    background-color: chartreuse;
+    height: 427.2px;
+}
+.promociones{
+    background-color: darkcyan;
+    height:495.2 ;
+}
+
+.historial{
+    background-color: cornflowerblue;
+    height:358.2px;
+}
+
+.footer{
+    background-color: brown;
+    height:626.483px;
 }
