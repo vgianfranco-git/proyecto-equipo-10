@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.d-flex{
+
+    display: flex;
+}
+.d-flex.cont{
+justify-content: center;
+
+}
+
+
+.header{
+    background-color: blueviolet;
+    height: 92px;
+
+}
+.body{
+
+    background-color: white;
+    margin-left: 86px;
+    margin-right: 86px;
+}
+.ruta{
+    background-color: darkgreen;
+
+    
+}
+.cont-prod{
+    background-color: darkkhaki;
+    height: 900px;
+}
+
+.img{
+
+}
+
+.banner{
+    height: 150px;
+    width: auto;
+    background-color: darkmagenta;
+    margin-bottom: 10px;
+}
+.ft{
+    background-color: darkgray;
+    height: auto;
+}
