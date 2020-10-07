@@ -10,7 +10,7 @@
     display: flex;
 }
 .d-flex.cont{
-justify-content: center;
+justify-content: space-around;
 
 }
 
@@ -18,7 +18,8 @@ justify-content: center;
 .header{
     background-color: blueviolet;
     height: 92px;
-
+    margin-left: 86px;
+    margin-right: 86px;
 }
 .body{
 
@@ -28,16 +29,33 @@ justify-content: center;
 }
 .ruta{
     background-color: darkgreen;
+    margin-left: 86px;
+    margin-right: 86px;
 
     
 }
 .cont-prod{
     background-color: darkkhaki;
     height: 900px;
+    margin-left: 86px;
+    margin-right: 86px;
+}
+.carr-img{
+    background-color: tomato;
+    height:500px ;
+    width: 100px; ;
 }
 
 .img{
+    background-color: tomato;
+    height:500px ;
+    width: 350px; ;
 
+}
+.art-data{
+    background-color: tomato;
+    height:500px ;
+    width: 350px; ;
 }
 
 .banner{
