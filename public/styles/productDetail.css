@@ -36,7 +36,7 @@ justify-content: space-around;
 }
 .cont-prod{
     background-color: darkkhaki;
-    height: 900px;
+    height: 530px;
     margin-left: 86px;
     margin-right: 86px;
 }
@@ -46,25 +46,39 @@ justify-content: space-around;
     width: 100px; ;
 }
 
+
 .img{
     background-color: tomato;
     height:500px ;
     width: 350px; ;
 
 }
+
 .art-data{
     background-color: tomato;
     height:500px ;
-    width: 350px; ;
+    width: 350px;
+
+}
+.flex-data{
+    flex-grow: 0.5;
 }
 
 .banner{
-    height: 150px;
+    height: 170px;
     width: auto;
     background-color: darkmagenta;
     margin-bottom: 10px;
+    margin-left: 86px;
+    margin-right: 86px;
 }
 .ft{
     background-color: darkgray;
-    height: auto;
+    height: 100px;
+    margin-left: 86px;
+    margin-right: 86px;
+}
+
+.margin-top{
+    margin-top: 1%;
 }
