@@ -9,6 +9,7 @@
 
     display: flex;
 }
+/*diagramacion de elementos en pantalla*/
 .d-flex.cont{
 justify-content: space-around;
 
@@ -18,27 +19,24 @@ justify-content: space-around;
 .header{
     background-color: blueviolet;
     height: 92px;
-    margin-left: 86px;
-    margin-right: 86px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .body{
 
     background-color: white;
-    margin-left: 86px;
-    margin-right: 86px;
+    
 }
 .ruta{
     background-color: darkgreen;
-    margin-left: 86px;
-    margin-right: 86px;
+    
 
     
 }
 .cont-prod{
     background-color: darkkhaki;
     height: 530px;
-    margin-left: 86px;
-    margin-right: 86px;
+   
 }
 .carr-img{
     background-color: tomato;
@@ -48,7 +46,7 @@ justify-content: space-around;
 
 
 .img{
-    background-color: tomato;
+    background-color:white;
     height:500px ;
     width: 350px; ;
 
@@ -69,16 +67,33 @@ justify-content: space-around;
     width: auto;
     background-color: darkmagenta;
     margin-bottom: 10px;
-    margin-left: 86px;
-    margin-right: 86px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .ft{
     background-color: darkgray;
     height: 100px;
-    margin-left: 86px;
-    margin-right: 86px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .margin-top{
     margin-top: 1%;
+}
+
+
+/*Hasta acá es diagramacion de los elementos en pantalla*/
+
+.wd-100{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 20%;
+}
+
+/*Carousel*/
+
+.d-flex.img-mini{
+flex-direction: column
+;
 }
