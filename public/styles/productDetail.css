@@ -94,6 +94,17 @@ justify-content: space-around;
 /*Carousel*/
 
 .d-flex.img-mini{
-flex-direction: column
-;
+flex-direction: column;
+}
+
+.resize_fit{
+    max-width:70%;
+    max-height:70%;
+    text-align: center;
+    
+    
+}
+.resize_fit-side{
+    max-width:100%;
+    max-height:100%;
 }
