@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="/styles/productDetail.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
     <title>Document</title>
 </head>
 <body class="body">
@@ -18,31 +20,48 @@
     
     <div class="carr-img margin-top d-flex img-mini">
         <div>
-            <img src="/images/blusa-1.jpeg" alt="" class="resize_fit-side">
+            <img src="/images/blusa-1.jpeg" alt="" class="resize_fit-side img-mini-border">
         </div>
-        <div><img src="/images/blusa-2.jpeg" alt="" class="resize_fit-side" ></div>
-        <div><img src="/images/blusa-3.jpeg" alt="" class="resize_fit-side"></div>
-        <div><img src="/images/blusa-4.jpeg" alt="" class="resize_fit-side"></div>
+        <div><img src="/images/blusa-2.jpeg" alt="" class="resize_fit-side img-mini-border" ></div>
+        <div><img src="/images/blusa-3.jpeg" alt="" class="resize_fit-side img-mini-border"></div>
+        <div><img src="/images/blusa-4.jpeg" alt="" class="resize_fit-side img-mini-border"></div>
     </div>
     <div class="img margin-top">
 
         <img src="/images/img-blusa.jpeg" alt="blusa" class="wd-100">
     </div>
-    <div class="art-data margin-top flex-data">
-        <p>Nombre del producto</p>
-        <p>$20.00</p>
-        <p>Color:</p>
-        <p>Talle</p>
-        <button type="button">XS</button>
-        <button type="button">S</button> 
-        <button type="button">M</button> 
-        <button type="button">L</button> 
-        <button type="button">XL</button> 
-        <button type="button">XXL</button> 
-        <p>
-            <button type="submit" class="inputs send parrafo">Agregar al carrito</button>
+    <div class="art-data margin-top flex-data prod-border">
+        <h1 class="prod-title">Camisa Ruffle</h1>
+        <p class="prod-price">$2500.00</p>
+        <p class="prod-color margin-top" >Color:</p>
+        <p class="prod-talle">Talle:</p>
+        <div class="margin-top">
+        <button type="button" class="button-size">XS</button>
+        <button type="button" class="button-size">S</button> 
+        <button type="button" class="button-size">M</button> 
+        <button type="button" class="button-size">L</button> 
+        <button type="button" class="button-size">XL</button> 
+        <button type="button" class="button-size">XXL</button>
+        </div> 
+        <div class="d-flex margin-top">
+            <form action="resultado.html" method="POST">
+            <select name="cant" id="cant">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            
+        </select>
+         
+            <button type="submit" class="prod-shop-cart send">Agregar al carrito</button>
            
-        </p>
+        </div>
 
 
     </div>
@@ -79,41 +98,47 @@
     
 
 </div>
-    <footer class="ft">
-<div class="d-flex cont">
+    <footer class="ft ft-area">
+<div class="d-flex foot">
     <article>
         <p class="title-ft">R-market</p>
-        <p>Como funciona</p>
-        <p>quienes somos</p>
-        <p>zonas de envio</p>
-        <p>terminos y condiciones</p>
-        <p>politicas de devolucion</p>
-
+    <ul class="ft-text ft-space">
+        <li><a href="#" class="footer">Cómo funciona</a></li>
+        <li class="margin-ft-elements"><a href="#" class="footer">Quiénes somos</a></li>
+        <li class="margin-ft-elements"><a href="#" class="footer">Zonas de envío</a></li>
+        <li class="margin-ft-elements"><a href="#" class="footer">Términos y Condiciones</a></li>
+        <li class="margin-ft-elements"><a href="#" class="footer">Políticas de devolución</a></li>
+    </ul>
     </article>
     <article>
         <p class="title-ft">Contactanos</p>
-        <p></p>
-        <p></p>
-        <p></p>
+        <ul class="ft-text ft-space">
+            <li><span><i class="fab fa-whatsapp redes-icon"></i></span>+54911-4555-5555</li>
+            <li class="margin-ft-elements"><span><i class="far fa-envelope redes-icon"></i></span>contacto@r-market.com.ar</li>
+            
+
+        </ul>
     </article>
     
     <article>
         <p class="title-ft">Redes Sociales</p>
-        <a href="https://www.facebook.com/">
+        <div class="d-flex flex-icon ft-space">
+        <a href="https://www.facebook.com/" class="redes-icon">
             <i class="fab fa-facebook"></i>
         </a> 
 
-        <a href="https://www.instagram.com/">
+        <a href="https://www.instagram.com/" class="redes-icon">
             <i class="fab fa-instagram"></i>
         </a>
 
-        <a href="https://twitter.com/">
+        <a href="https://twitter.com/" class="redes-icon">
             <i class="fab fa-twitter-square"></i>
-        </a>          
+        </a> 
+    </div>         
     </article>
     
 </div>
-<article>Copyright R-market-2020.Todos los derechos reservados</article>
+<article class="copyright">Copyright R-market-2020.Todos los derechos reservados</article>
 </footer>
 </body>
 </html>
