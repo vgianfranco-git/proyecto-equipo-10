@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.d-flex{
+
+    display: flex;
+}
+
+/*diagramacion de elementos en pantalla*/
+.d-flex.cont{
+    justify-content: space-around;
+    
+    }
+    
+    
+    .header{
+        background-color: blueviolet;
+        height: 92px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .body{
+    
+        background-color: white;
+        
+    }
+    .shopping{
+        background-color: tomato;
+        width: 85%;
+        height: 80px;
+    }
+
+    .total{
+        background-color: teal;
+        width: 15%;
+        height: 80px;
+    }
+
+    .banner{
+        height: 170px;
+        width: auto;
+        background-color: darkmagenta;
+        margin-bottom: 10px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
