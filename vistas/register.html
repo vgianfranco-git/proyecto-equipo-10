@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class="formatohead">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/styles/register.css">
@@ -8,45 +8,56 @@
 </head>
 <body>
     <header>
+        <img src="../public/images/logo-r-market-mostaza.png" alt="Logo R-Market">
     </header>
     <section>
         <div>
-            <form action="login.html" method="POST">
-                <h2>Registrate para formar parte de nuestra comunidad!</h2>
+            <form action="confirmacion.html" method="POST">
+                <h2 class="formatotituloinvitacion">Registrate para comenzar a ser parte de nuestra comunidad!</h2>
                 <div>
                     <label class="formatocaja">
-                        <span class="formatointeriorcaja">Nombre :</span>
-                        <input aria-label="Nombre" aria-required="false" autocapitalize="sentences" autocorrect="off" name="Nombre" type="text" value="">
+                        <span class="formatointeriorcaja">Nombre</span>
+                        <input aria-label="nombre" aria-required="false" autocapitalize="sentences" autocorrect="off" name="nombre" type="text" class="textointeriorcaja" value="">
                     </label>
                 </div>
                 <div>
                     <label class="formatocaja">
-                        <span class="formatointeriorcaja">Nombre :</span>
-                        <input aria-label="Nombre" aria-required="false" autocapitalize="sentences" autocorrect="off" name="Nombre" type="text" value="">
+                        <span class="formatointeriorcaja">Apellido</span>
+                        <input aria-label="apellido" aria-required="false" autocapitalize="sentences" autocorrect="off" name="apellido" type="text" class="textointeriorcaja" value="">
                     </label>
                 </div>
                 <div>
                     <label class="formatocaja">
-                        <span class="formatointeriorcaja">Nombre :</span>
-                        <input aria-label="Nombre" aria-required="false" autocapitalize="sentences" autocorrect="off" name="Nombre" type="text" value="">
+                        <span class="formatointeriorcaja">Correo Electrónico</span>
+                        <input aria-label="email" aria-required="false" autocapitalize="sentences" autocorrect="off" name="email" type="email" class="textointeriorcaja" value="">
                     </label>
                 </div>
                 <div>
                     <label class="formatocaja">
-                        <span class="formatointeriorcaja">Nombre :</span>
-                        <input aria-label="Nombre" aria-required="false" autocapitalize="sentences" autocorrect="off" name="Nombre" type="text" value="">
+                        <span class="formatointeriorcaja">Contraseña</span>
+                        <input aria-label="password" aria-required="false" autocapitalize="sentences" autocorrect="off" name="contraseña" type="password" class="textointeriorcaja" value="">
                     </label>
                 </div>
                 <div>
                     <label class="formatocaja">
-                        <span class="formatointeriorcaja">Nombre :</span>
-                        <input aria-label="Nombre" aria-required="false" autocapitalize="sentences" autocorrect="off" name="Nombre" type="text" value="">
+                        <span class="formatointeriorcaja">Teléfono</span>
+                        <input aria-label="telefono" aria-required="false" autocapitalize="sentences" autocorrect="off" name="telefono" type="tel" class="textointeriorcaja" value="">
                     </label>
                 </div>
+                <div>
+                    <label>
+                        <input type="submit" class="botonenviar" value="Enviar">
+                    </label>
+                </div>
+                
+
             </form>
         </div>
     </section>
+
     <footer>
     </footer>
+
+
 </body>
 </html>
