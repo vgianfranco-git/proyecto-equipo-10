@@ -18,6 +18,33 @@ ul{
 
     display: flex;
 }
+
+/*Estilo Ruta de Navegacion*/
+.d-flex.ruta-menu{
+    justify-content: flex-start;
+    
+}
+.margin-ruta{
+margin-left:2px;
+margin-right: 2px;
+}
+.style-ruta{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+a.ruta{
+    color: black;
+
+}
+a.ruta:visited{
+    color: black;
+    
+}
+.zoom{
+    justify-content: center;
+}
+
+
 /*diagramacion de elementos en pantalla*/
 .d-flex.cont{
 justify-content: center;
@@ -47,8 +74,8 @@ justify-content: center;
 }
 .carr-img{
     background-color: white;
-    height:500px ;
-    width: 100px; ;
+    height:auto;
+    width: 100px;
 }
 
 
@@ -75,9 +102,15 @@ justify-content: center;
     width: auto;
     background-color: white;
     margin-bottom: 10px;
+    margin-top: 5%;
     padding-left: 20%;
     padding-right: 20%;
 }
+.banner-fonts{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+}
+
 
 
 .margin-top{
@@ -91,7 +124,10 @@ justify-content: center;
     width: 100%;
     height: auto;
     position: relative;
-    margin-top: 20%;
+    
+}
+.img-central{
+    flex-grow: 0.15;
 }
 
 /*Carousel*/
