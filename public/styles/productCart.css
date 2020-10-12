@@ -1,51 +1,120 @@
-*{
-    margin: 0px;
+body{
     padding: 0px;
-    box-sizing: border-box;
-
-}
-
-.d-flex{
-
+    margin: 0px;
     display: flex;
+    flex-direction: column;
 }
+footer .titulo-footer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+    top: 10px;
+}
+footer #titulo-footer p{
+   font: bold;
+   size: 20px;
+}
+footer .titulo-footer img{
+    width: 100%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.bloque-img{
+    border: 3px solid black;
+    height: 280px;
+}
+body .head{
+    width: 100%;
+    background: gold;
+    height: 80px;
+    margin: 0%;
+}
+body main{
+    background: floralwhite;
+}
+.item .item1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    left: 16%;
+    position: relative;
+    width: 84%;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    position: relative;
+    right: 10%;
+    margin: 15px 15px;
+}
+.item p{
+    position: relative;
+    left: 18%;
+}
+.item-img{
+    display: flex;
+    width: 25%;
+    padding: 15px 0px;
+    height: 250px;
+}
+.item-img img{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.item-remover{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 33.5%;
+}
+.item-descrip div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25%;
+}
+.item-descrip{
+    display: flex;
+    flex-direction: row;
+}
+.deta-pagar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    position: relative;
+    right: 10%;
+}
+.deta-pagar .detalle{
+    border-bottom: 3px solid black;
+}
+.pagar{
+    width: 50%;
+}
+section{
+    display: flex;
+    position: relative;
+    top: 0.9vh;
+    margin: 0.9vh 1vw;
 
-/*diagramacion de elementos en pantalla*/
-.d-flex.cont{
-    justify-content: space-around;
-    
-    }
-    
-    
-    .header{
-        background-color: blueviolet;
-        height: 92px;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-    .body{
-    
-        background-color: white;
-        
-    }
-    .shopping{
-        background-color: tomato;
-        width: 85%;
-        height: 80px;
-    }
-
-    .total{
-        background-color: teal;
-        width: 15%;
-        height: 80px;
-    }
-
-    .banner{
-        height: 170px;
-        width: auto;
-        background-color: darkmagenta;
-        margin-bottom: 10px;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-    
+}
+.espacio-detalle{
+    width: 20%;
+    position: relative;
+    left: 80%;
+}
+.pagar input{
+    width: 250%;
+    position: relative;
+    left: 20%;
+}
