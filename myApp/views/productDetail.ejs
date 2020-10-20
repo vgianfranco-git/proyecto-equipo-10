@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="/styles/productDetail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <title>ProductDetail</title>
+</head>
+<body class="body">
+    <header class="header">Barra de Navegacion</header>
+
+
+    <nav class="ruta">
+        <ul class="d-flex">
+            <li class="margin-ruta"><a href="/vistas/index.html" class="style-ruta ruta">Home</a></li>
+            <span>/</span>
+            <li class="margin-ruta"><a href="#" class="style-ruta ruta">Productos</a></li>
+            <span>/</span>
+            <li class="margin-ruta"><a href="#" class="style-ruta ruta">Ropa</a></li>
+            <span>/</span>
+            <li class="margin-ruta"><a href="#" class="style-ruta ruta">Mujer</a></li>
+            <span>/</span>
+            <li class="margin-ruta"><a href="#" class="style-ruta ruta">Camisas</a></li>
+
+        </ul>
+        </nav>
+<div class="cont-prod d-flex cont"><!--Contenedor general de todo -->
+
+    
+    <div class="carr-img margin-top d-flex img-mini">
+        <div>
+            <img src="/images/blusa-1.jpeg" alt="" class="resize_fit-side img-mini-border">
+        </div>
+        <div><img src="/images/blusa-2.jpeg" alt="" class="resize_fit-side img-mini-border" ></div>
+        <div><img src="/images/blusa-3.jpeg" alt="" class="resize_fit-side img-mini-border"></div>
+        <div><img src="/images/blusa-4.jpeg" alt="" class="resize_fit-side img-mini-border"></div>
+    </div>
+    <div class="img margin-top img-central">
+
+        <img src="/images/img-blusa.jpeg" alt="blusa" class="wd-100">
+        
+        <a href="" class="ruta d-flex zoom"><i class="fas fa-search-plus"></i></a>
+         
+    </div>
+    <div class="art-data margin-top flex-data prod-border">
+        <h1 class="prod-title">Camisa Ruffle</h1>
+        <p class="prod-price">$2500.00</p>
+        <p class="prod-color margin-top" >Color:</p>
+        <p class="prod-talle">Talle:</p>
+        <div class="margin-top">
+        <button type="button" class="button-size">XS</button>
+        <button type="button" class="button-size">S</button> 
+        <button type="button" class="button-size">M</button> 
+        <button type="button" class="button-size">L</button> 
+        <button type="button" class="button-size">XL</button> 
+        <button type="button" class="button-size">XXL</button>
+        </div> 
+        <div class="d-flex margin-top">
+            <form action="resultado.html" method="POST">
+            <select name="cant" id="cant">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            
+        </select>
+         
+            <button type="submit" class="prod-shop-cart send">Agregar al carrito</button>
+           
+        </div>
+
+
+    </div>
+    
+
+</div>
+<div class="banner d-flex">
+    <div class="banner-fonts">
+     <img src="/images/saco-1.jpeg" alt="saco1"class="resize_fit">
+     <p>Saco</p>
+    <p>$3800.00</p>   
+
+    </div>
+    <div class="banner-fonts">
+        <img src="/images/saco-verde.jpeg" alt=""class="resize_fit">
+        <p>Saco</p>
+        <p>$3000.00</p>
+    </div>
+    <div class="banner-fonts">
+        <img src="/images/buzo-1.jpeg" alt=""class="resize_fit">
+        <p>Buzo</p>
+        <p>$2750.00</p>
+    </div>
+    <div class="banner-fonts">
+        <img src="/images/buzo-marron.jpeg" alt=""class="resize_fit">
+        <p>Buzo</p>
+        <p>$2700.00</p>
+    </div>
+    <div class="banner-fonts">
+        <img src="/images/jean.jpeg" alt="" class="resize_fit">
+        <p>Jean</p>
+        <p>$3500.00</p>
+    </div>
+    
+
+</div>
+    <footer class="ft ft-area">
+<div class="d-flex foot">
+    <article>
+        <p class="title-ft">R-market</p>
+    <ul class="ft-text ft-space">
+        <li><a href="#" class="footer">Cómo funciona</a></li>
+        <li class="margin-ft-elements"><a href="#" class="footer">Quiénes somos</a></li>
+        <li class="margin-ft-elements"><a href="#" class="footer">Zonas de envío</a></li>
+        <li class="margin-ft-elements"><a href="#" class="footer">Términos y Condiciones</a></li>
+        <li class="margin-ft-elements"><a href="#" class="footer">Políticas de devolución</a></li>
+    </ul>
+    </article>
+    <article>
+        <p class="title-ft">Contactanos</p>
+        <ul class="ft-text ft-space">
+            <li><span><i class="fab fa-whatsapp redes-icon"></i></span>+54911-4555-5555</li>
+            <li class="margin-ft-elements"><span><i class="far fa-envelope redes-icon"></i></span>contacto@r-market.com.ar</li>
+            
+
+        </ul>
+    </article>
+    
+    <article>
+        <p class="title-ft">Redes Sociales</p>
+        <div class="d-flex flex-icon ft-space">
+        <a href="https://www.facebook.com/" class="redes-icon">
+            <i class="fab fa-facebook"></i>
+        </a> 
+
+        <a href="https://www.instagram.com/" class="redes-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://twitter.com/" class="redes-icon">
+            <i class="fab fa-twitter-square"></i>
+        </a> 
+    </div>         
+    </article>
+    
+</div>
+<article class="copyright">Copyright R-market-2020.Todos los derechos reservados</article>
+</footer>
+</body>
+</html>

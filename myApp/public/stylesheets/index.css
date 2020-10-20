@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+ }
+ a:visited{
+     color: white;
+ }
+ 
+ul{
+    list-style-type: none;
+}
+.d-flex{
+
+    display: flex;
+}
+
+/*----------------------------------------------------------*/
+
+.d-flex.cont{
+    justify-content: center;
+    
+    }
+    
+/*Header*/    
+    .header{
+        background-color:#BCAD29;
+        height: 92px;
+        padding-left: 20%;
+        padding-right: 20%;
+
+    }
+    .nav-sup{
+        margin-bottom: 3%;
+    }
+
+   .bg-green{
+       background-color: green;
+   }
+   .bg-red{
+       background-color: red;
+   }
+   .flex-search{
+       flex-grow: 3;
+  
+   }
+   .flex-logo{
+       flex-grow: 0.5;
+   }
+   .li{
+       margin-left: 6%;
+       margin-right: 6%;
+   }
+    
+  
+
+/*Fin del Header*/    
+    .body{
+    
+        background-color: white;
+        height: auto;
+    }
+
+
+.carrousel{
+    background-color: chartreuse;
+    height: 338px;
+}
+.info-pago {
+background-color: cadetblue;
+height: 150px;
+}
+.recomendaciones{
+    background-color:chartreuse ;
+    height: 427.2px;
+}
+.descubri{
+    background-color: chocolate;
+    height: 378.2px;
+}
+
+.ofertas{
+    background-color: chartreuse;
+    height: 427.2px;
+}
+.promociones{
+    background-color: darkcyan;
+    height:495.2 ;
+}
+
+.historial{
+    background-color: cornflowerblue;
+    height:358.2px;
+}
+
+.d-flex.foot{
+    justify-content: space-between;
+    
+}
+.ft{
+    background-color: #BCAD29;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:5%;
+    padding-right:5%;
+}
+.icon-measures{
+    width:42px;
+    height:42px;
+}
+.title-ft{
+font: size 20px;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+color: white;
+
+}
+.ft-area{
+    margin-top: 20px;
+    padding-top: 50px;
+    
+}
+
+.ft-text{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    
+    
+
+}
+.flex-icon{
+    justify-content: space-around;
+}
+.redes-icon{
+    font-size: 18px;
+    color: white;
+}
+.copyright{
+    margin-top:2% ;
+    
+    
+}
+.ft-space{
+    margin-top: 5%;
+
+}
+a.footer{
+    color: white;
+}
+
+.margin-ft-elements{
+    margin-top: 10px;
+}
