@@ -3,14 +3,9 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-const loginRouter = require('./routes/login');
-const productCartRouter = require('./routes/productCart');
-const productDetailRouter = require('./routes/productDetail');
-const registerRouter = require ('./routes/register');
-const confirmacionRouter = require('./routes/confirmacion');
+const productRouter = require('./routes/product');
 
 
 
@@ -28,11 +23,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/', usersRouter);
-app.use('/', loginRouter);
-app.use('/', productCartRouter);
-app.use('/', productDetailRouter);
-app.use('/', registerRouter);
-app.use('/', confirmacionRouter);
+app.use('/', productRouter);
+
+
+
 
 
 // catch 404 and forward to error handler
