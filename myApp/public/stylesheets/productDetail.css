@@ -69,7 +69,7 @@ justify-content: center;
 }
 .cont-prod{
     background-color: white;
-    height: 530px;
+    height: 550px;
    
 }
 .carr-img{
@@ -110,9 +110,13 @@ justify-content: center;
     font-family: 'Roboto', sans-serif;
     font-size:14px;
 }
+.title-banner{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1%;
 
-
-
+}
 .margin-top{
     margin-top: 1%;
 }
@@ -152,6 +156,8 @@ flex-direction: column;
     max-width:100%;
     max-height:100%;
 }
+
+
 /*Informacion del producto*/
 .prod-title{
     font-size: 1.5rem;
@@ -163,15 +169,22 @@ flex-direction: column;
 }
 .prod-price{
 font-size: 20px;
-margin-top:24px ;
+margin-top:5%; 
+margin-bottom:5%;
 
 }
 .prod-color{
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
-    margin-top:5%px ;
+    margin-top:5% ;
 
 
+}
+.mini-color{
+    margin-top:1%;
+    width: 7%;
+    height: auto;
+    border: solid 1px black;
 }
 .prod-talle{
     font-size: 12px;
@@ -203,8 +216,6 @@ margin-top:24px ;
         padding: 4px;
         background-color:#BCAD29;
         
-        
-   
 
 }
 .prod-shop-cart:hover{
@@ -230,8 +241,10 @@ margin-top:24px ;
     border-left: 1px solid gray;
     padding-left: 1%;
 }
+/*fin informacion del producto*/
 
-/*Todo lo relacionado al footer*/
+
+/*footer*/
 .d-flex.foot{
     justify-content: space-between;
     
@@ -242,6 +255,7 @@ margin-top:24px ;
     padding-bottom: 20px;
     padding-left:5%;
     padding-right:5%;
+    
 }
 .icon-measures{
     width:42px;
@@ -255,7 +269,7 @@ color: white;
 
 }
 .ft-area{
-    margin-top: 20px;
+    margin-top: 50px;
     padding-top: 50px;
     
 }
@@ -274,6 +288,7 @@ color: white;
 .redes-icon{
     font-size: 18px;
     color: white;
+    margin-right: 10px;
 }
 .copyright{
     margin-top:2% ;
@@ -291,3 +306,4 @@ a.footer{
 .margin-ft-elements{
     margin-top: 10px;
 }
+/*fin footer*/
