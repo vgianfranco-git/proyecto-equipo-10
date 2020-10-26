@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/productAdd.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body class="body">
+    <header class="header"><!--barra de navegacion--></header>
+
+    <main>
+
+<h1 class="title-font space center">Cargá tu Producto</h1>
+<!--nombre del producto-->        
+<form action="carga/nuevo" method="POST">
+     <p class="center space"> 
+        <label for="nombre-prod"></label>
+        <input type="text" name="nombre-prod" id="nombre-prod" placeholder="Nombre del Producto" class="nombre-prod nombre-size padding-text">
+    </p>  
+<!-- fin nombre del producto-->
+
+<!--descripcion-->
+    <p class="center space"> 
+        <textarea name="comentarios" rows="10" cols="40">Descripción</textarea>
+    </p> 
+<!--fin descripcion-->
+
+<!--categoria-->
+    <p class="center"> 
+        <label for="categoria center">Categoría</label>
+    <p class="center">
+        <select name="categoria center">
+            <option value="AyB">Alimentos y Bebidas</option>
+            <option value="Ind">Indumentaria</option>
+            <option value="Hog">Hogar</option>
+            <option value="Ser">Servicios</option>
+        </select>
+    </p>
+    </p>  
+    <!--fin categoria-->
+
+<!--precio del producto-->
+    <p class="center"> 
+        <label for="precio-prod"></label>
+        <input type="text" name="nombre-prod" id="nombre-prod" placeholder="Nombre del Producto" class="nombre-prod nombre-size">
+    </p>  
+    <!--fin preciodel producto-->
+    
+    <!--carga de imagenes-->
+    <!--fin carga imagenes-->
+
+
+
+    <!--boton enviar-->
+    <p  class="center">
+    <input type="button" value="Enviar" class=" button-send">
+    </p>
+    <!--fin boton enviar-->
+
+
+
+</form>
+        <div class=""><!--imagen--></div>
+        <div class=""><!--categoria--> </div>  
+        <div class=""><!--colores--> </div> 
+        <div class=""><!--talles--> </div> 
+        <div class=""><!--precio--></div> 
+
+        
+         
+      
+    </main>
+    
+</body>
+</html>

@@ -5,8 +5,8 @@ let productController ={
 
     },
 
-    carga: function(req,res,next){
-        res.render('./products/productCarga');
+    add: function(req,res,next){
+        res.render('./products/productAdd');
         
     },
 
