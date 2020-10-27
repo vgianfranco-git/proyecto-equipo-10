@@ -15,7 +15,7 @@ let productController ={
     },
     
     cart: function(req,res,next){
-        res.render('productCart');
+        res.render('./products/productCart');
 
     }
     
