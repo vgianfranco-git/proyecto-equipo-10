@@ -180,6 +180,11 @@ margin-bottom:5%;
 
 
 }
+.prod-detail{
+    font-size: 11px;
+    margin-top: 1%;
+    font-family: 'Roboto', sans-serif;
+}
 .mini-color{
     margin-top:1%;
     width: 7%;
@@ -213,8 +218,10 @@ margin-bottom:5%;
         margin-top:20px;
         margin-bottom: 20px;
         border-radius: 5px;
+        border-style: solid;
         padding: 4px;
         background-color:#BCAD29;
+        background: transparent;
         
 
 }
@@ -222,6 +229,7 @@ margin-bottom:5%;
     
     cursor: pointer;
     background-color:olive;
+   
     
 
 
