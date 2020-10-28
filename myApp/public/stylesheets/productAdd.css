@@ -18,11 +18,8 @@ ul{
 
     display: flex;
 }
-.flex-align{
-    align-items: baseline;
-    flex-direction: row;
-    ;
-}
+
+    
 .d-flex.cont{
     justify-content: center;
     
@@ -52,13 +49,12 @@ font-family: 'Roboto', sans-serif;
 
 }
 .space{
-    margin-top:2% ;
-    margin-bottom:2% ;
+    margin-top:1% ;
+    
 }
 .padding-text{
     padding-right:2px;
     
-
 }
 
 
@@ -83,7 +79,11 @@ cursor: pointer;
 /*fin boton enviar*/
     /*Division por campo a completar*/
 
-    
+    .wdth-bar{
+        width: 30%;
+    }
+
+
     .nombre-prod{
     
         margin-top: 3%;
@@ -91,8 +91,14 @@ cursor: pointer;
     }
     .nombre-size{
 
-        font-size: 1.5rem;
+        font-size: 14px;
         border-radius: 5px;
+        padding-top: 5px ;
+        padding-bottom: 5px;
+        padding-left: 2px;
+        border-style:solid;
+        
+        
     }
 
     .inputs{
@@ -104,18 +110,15 @@ cursor: pointer;
         padding: 2px;
         border:0px;
      }
-     .rob-14{
+     .rob-18{
         font-family: 'Roboto', sans-serif;
-        font-size: 14px;
+        font-size: 18px;
+        text-decoration: underline;
         
       }
-      .container-check {
-        display: block;
-        position: relative;
-        padding-left: 35px;
-        margin-bottom: 12px;
-        cursor: pointer;
-        
-        
-        
+      .box-margin{
+          
+          margin-right: 1%;
       }
+  
+

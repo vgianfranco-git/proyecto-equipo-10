@@ -11,7 +11,7 @@ let productController ={
     },
 
     edit: function(req,res,next){
-        res.render('edit');
+        res.render('./products/productEdit');
     },
     
     cart: function(req,res,next){
