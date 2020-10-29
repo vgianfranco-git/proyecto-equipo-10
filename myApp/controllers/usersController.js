@@ -2,17 +2,17 @@ let usersController ={
     
     login: function (req,res,next){
 
-        res.render('login');
+        res.render('./users/login');
 
     },
 
     register: function (req,res,next){
-        res.render('register');
+        res.render('./users/register');
 
     },
 
     edit: function(req,res,next){
-        res.render('edit');
+        res.render('./users/edit');
 
     }
 
