@@ -7,11 +7,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="/stylesheets/productCart.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header class="head">
-            <!--parte homogenea de la app-->
-            <p>Encabezado</p>
+        <%-include('../partials/header.ejs')%>
         </header>
         <main>
             <section>
@@ -50,27 +51,36 @@
                     <!--detalle de cuenta y pagar-->
                     <div class="detalle">
                         <!--detalle de cuenta-->
-                        <p><span >Subtotal</span><span class="espacio-detalle"> $40.00</span></p>
-                        <p><span >Envio</span><span class="espacio-detalle"> $00.00</span></p>
-                        <p><span >Impuestos</span><span class="espacio-detalle"> $00.00</span></p>
+                        <div>
+                            <p>Subtotal</p>
+                            <p>Envio</p>
+                            <p>Impuestos</p>
+                        </div>
+                        <div id="precios-compra">
+                            <p>$40.00</p>
+                            <p>$00.00</p>
+                            <p>$00.00</p> 
+                        </div>
                     </div>
                     <div class="pagar">
                         <!--pagar-->
-                        <p><span >Total</span><span class="espacio-detalle"> $40.00</span></p>
-                        <input type="submit" name="pagar" value="pagar">
+                        <div id="totall">
+                            <p>Total</p>
+                            <p id="pp"> $40.00</p>
+                        </div>
+                        <input type="submit" name="pagar" value="Pagar">
                     </div>
                 </div>
             </section>
             <div>
             </div>
-        </main>
-        <footer>
-            <div class="titulo-footer">
+            <div class="titulof">
                 <p>Otros clientes tambien compraron</p>
             </div>
-            <div class="titulo-footer bloque-img">
-                <img src="https://www.infobae.com/new-resizer/uKd_dEMCnxfMO98IL49Aje1qKqo=/768x432/filters:format(jpg):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/FJKXKQKMMJBV7KQ7XQ3YNFO7LU.jpg">
+            <div class="titulo-footer bloque-img ">
+                <img class="burga" src="https://www.infobae.com/new-resizer/uKd_dEMCnxfMO98IL49Aje1qKqo=/768x432/filters:format(jpg):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/FJKXKQKMMJBV7KQ7XQ3YNFO7LU.jpg">
             </div>
-        </footer>
+        </main>
+        <%-include('../partials/footer.ejs')%>
     </body>
 </html>
