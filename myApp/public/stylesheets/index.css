@@ -94,13 +94,18 @@ ul{
 
 .carrousel{
     background-color: white;
-    height: 400px;
+    height: 500px;
 
    
 }
 
 .carrousel-img{
- width: 100%;
+ max-width: 100%;
+ max-height: fit-content;
+ 
+margin: auto;
+ 
+ 
 
 
 }
