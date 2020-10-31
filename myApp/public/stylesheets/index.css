@@ -29,10 +29,15 @@ ul{
     justify-content: space-around;
 }    
     
+.margin-top{
+    margin-top: 3%;
+    margin-left: auto ;
+    margin-right: auto;
+}
 /*Header*/    
     .header{
         background-color:#BCAD29;
-        height: 92px;
+        height: 130px;
         padding-left: 20%;
         padding-right: 20%;
 
@@ -52,13 +57,31 @@ ul{
   
    }
    .flex-logo{
-       flex-grow: 0.5;
+       flex-grow: 1;
    }
    .li{
        margin-left: 6%;
        margin-right: 6%;
    }
     
+
+   .titles{
+    font-family:'Roboto', sans-serif;
+    font-size: 1.5rem;
+   }
+    .search-bar{
+    width: 60%;
+    padding: 2px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 2%;
+    }
+    
+   
+
   
 
 /*Fin del Header*/    
@@ -67,18 +90,31 @@ ul{
         background-color: white;
         height: auto;
     }
-
+/*Carrousel*/
 
 .carrousel{
-    background-color: chartreuse;
-    height: 338px;
+    background-color: white;
+    height: 400px;
+
+   
 }
+
+.carrousel-img{
+ width: 100%;
+
+
+}
+
+
+/*/Carrousel*/
+
+
 /*Informacion de pago*/
 .info-pago {
 background-color: cadetblue;
 height: 150px;
 width: 80%;
-margin: auto;
+
 
 }
 /* /informacion de pago */
@@ -88,18 +124,16 @@ margin: auto;
     background-color:white
     use ;
     height: 427.2px;
-    margin:auto;
+    
     width: 80%;
-    border: solid black 0.5px
+    
 }
 .resize_fit-side{
     max-width:100%;
     max-height:100%;
 }
 .title-banner{
-    font-size: 1rem;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    
     margin-bottom: 3%;
 
 }
@@ -110,9 +144,10 @@ margin: auto;
 .descubri{
     background-color: white;
     height: 378.2px;
-    margin:auto;
     width: 80%;
     padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -130,20 +165,19 @@ margin: auto;
 /*Ofertas*/
 
 .ofertas{
-    background-color: chartreuse;
+    background-color: white;
     height: 427.2px;
     width: 80%;
-    margin: auto;
+   
 }
 
 /* /Ofertas */
 
 /*Promociones*/
 .promociones{
-    background-color: darkcyan;
+    background-color: white;
     height:495.2px ;
     width: 80%;
-    margin:auto;
     padding: 2%;
 }
 
@@ -171,22 +205,41 @@ margin: auto;
 
 /*Historial*/
 .historial{
-    background-color: cornflowerblue;
+    background-color: white;
     height:358.2px;
     width: 80%;
-    margin:auto;
+   
 }
 /*/Historial*/
 
 /*Newsletter*/
 
 .news{
-    background-color: darkgoldenrod;
+    background-color: white;
     height: 100px;
     width: 80%;
-    margin:auto;
+    
 }
 
+
+.news-bar{
+    width: 100%;
+    
+}
+.item-mail{
+    flex-grow: 0.2;
+}
+.input[type=text], .input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+ .input[type=checkbox] {
+    margin-top: 16px;
+  }
 /* /Newsletter*/
 
 
