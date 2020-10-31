@@ -25,6 +25,9 @@ ul{
     justify-content: center;
     
     }
+.d-flex.space{
+    justify-content: space-around;
+}    
     
 /*Header*/    
     .header{
@@ -70,33 +73,125 @@ ul{
     background-color: chartreuse;
     height: 338px;
 }
+/*Informacion de pago*/
 .info-pago {
 background-color: cadetblue;
 height: 150px;
+width: 80%;
+margin: auto;
+
 }
+/* /informacion de pago */
+
+/*Recomendaciones*/
 .recomendaciones{
-    background-color:chartreuse ;
+    background-color:white
+    use ;
     height: 427.2px;
+    margin:auto;
+    width: 80%;
+    border: solid black 0.5px
 }
+.resize_fit-side{
+    max-width:100%;
+    max-height:100%;
+}
+.title-banner{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 3%;
+
+}
+
+/* /Recomendaciones*/
+
+/*Descubrí*/
 .descubri{
-    background-color: chocolate;
+    background-color: white;
     height: 378.2px;
+    margin:auto;
+    width: 80%;
+    padding: 1%;
 }
+
+
+.descubri-banner{
+    width: 48%;
+    background-color: darkblue;
+    height: 250px;
+    margin: auto;
+}
+
+
+
+/* /Descubrí*/
+
+/*Ofertas*/
 
 .ofertas{
     background-color: chartreuse;
     height: 427.2px;
-}
-.promociones{
-    background-color: darkcyan;
-    height:495.2 ;
+    width: 80%;
+    margin: auto;
 }
 
+/* /Ofertas */
+
+/*Promociones*/
+.promociones{
+    background-color: darkcyan;
+    height:495.2px ;
+    width: 80%;
+    margin:auto;
+    padding: 2%;
+}
+
+.promo-banner{
+    background-color: burlywood;
+    width: 50%;
+   
+}
+
+.mini-banner{
+    background-color: crimson;
+    width: 200px;
+    margin: auto;
+    height: 200px;
+}
+.d-flex.wp{
+    flex-wrap: wrap;
+
+
+}
+
+
+
+/* /Promociones*/
+
+/*Historial*/
 .historial{
     background-color: cornflowerblue;
     height:358.2px;
+    width: 80%;
+    margin:auto;
+}
+/*/Historial*/
+
+/*Newsletter*/
+
+.news{
+    background-color: darkgoldenrod;
+    height: 100px;
+    width: 80%;
+    margin:auto;
 }
 
+/* /Newsletter*/
+
+
+
+/*Footer*/
 .d-flex.foot{
     justify-content: space-between;
     
@@ -156,3 +251,4 @@ a.footer{
 .margin-ft-elements{
     margin-top: 10px;
 }
+/* /Footer*/
